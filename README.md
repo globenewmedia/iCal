@@ -1,30 +1,17 @@
-# 📅 eluceo — iCal 2
+# 📅 globenewmedia — iCal 2
 
-[![Continuous Integration](https://github.com/markuspoerschke/iCal/actions/workflows/ci.yml/badge.svg)](https://github.com/markuspoerschke/iCal/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/markuspoerschke/iCal/branch/2.x/graph/badge.svg)](https://codecov.io/gh/markuspoerschke/iCal)
-[![Psalm coverage](https://shepherd.dev/github/markuspoerschke/ical/coverage.svg?)](https://shepherd.dev/github/markuspoerschke/ical)
-[![License](https://poser.pugx.org/eluceo/ical/license)](https://packagist.org/packages/eluceo/ical)
-[![Latest Stable Version](https://poser.pugx.org/eluceo/ical/v/stable)](https://packagist.org/packages/eluceo/ical)
-[![Monthly Downloads](https://poser.pugx.org/eluceo/ical/d/monthly)](https://packagist.org/packages/eluceo/ical)
-[![Infection MSI](https://badge.stryker-mutator.io/github.com/markuspoerschke/iCal/2.x)](https://infection.github.io)
 
-This package offers an abstraction layer for creating iCalendars files.
+This package offers an abstraction layer for creating iCalendars files. It is a fork of the great eluceo/iCal! Please support this Developer who did a great job on this!
+
 By using this PHP package, you can create `*.ics` files without the knowledge of the underling format.
 The output itself will follow [RFC 5545](https://www.ietf.org/rfc/rfc5545.html) as good as possible.
-
-## Navigate through the project
-
--   📖 [read the documentation](https://ical.poerschke.nrw)
--   🐛 [report a bug or suggest a feature](https://github.com/markuspoerschke/iCal/issues)
--   🙋 [raise a question](https://github.com/markuspoerschke/iCal/discussions/categories/q-a)
--   💬 [start a discussion](https://github.com/markuspoerschke/iCal/discussions)
 
 ## Installation
 
 You can install this package by using [Composer](http://getcomposer.org), running the following command:
 
 ```sh
-composer require eluceo/ical
+composer require globenewmedia/ical
 ```
 
 ## Version / Upgrade
